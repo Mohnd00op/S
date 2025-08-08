@@ -300,6 +300,26 @@
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
     }
+
+        #dashboardToggleBtn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: var(--heist-dark) url('./rg0J2aS8Lkdv.png') no-repeat center center;
+      background-size: 50%;
+      cursor: pointer;
+      z-index: 10002;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px var(--heist-red);
+    }
+
+    #dashboardToggleBtn:hover {
+      transform: scale(1.1);
+      background-color: #111;
+    }
     
     #heistSidebar {
       position: fixed;
@@ -484,6 +504,29 @@
   <button id="seeMoreBtn">See More</button>
 </div>
 
+   <div id="dashboardToggleBtn" title="Dashboard"></div>
+
+
+<div id="heistOverlay"></div>
+
+
+<div id="heistSidebar">
+  <div id="heistSidebarHeader">
+    Dashboard
+    <span id="heistCloseBtn">�</span>
+  </div>
+
+  <a class="heistSidebarLink" href="https://mohnd00op.github.io/S/">Home</a>
+
+  <a class="heistSidebarLink" href="https://t.me/bfra100">Tele channel</a>
+  <a class="heistSidebarLink" href="https://whatsapp.com/channel/0029VbBUI0n9xVJhLfVTNk0k">WA Channel</a>
+  <a class="heistSidebarLink" href="https://chat.whatsapp.com/FQzMGLT7NvNCnOIFBiWQLa?mode=ac_t">WA Group</a>
+ 
+  <div style="margin-top: 20px; padding: 10px; font-size: 12px; color: #ccc; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+    © 2025 Team Spam 🩸.<br>Made by Terbo.
+  </div>
+</div>
+   
 <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8808636057090744" data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
